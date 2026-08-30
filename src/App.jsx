@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar.jsx'
 import Hero from './components/Hero.jsx'
 import ProcessSteps from './components/ProcessSteps.jsx'
+import NeedInput from './components/NeedInput.jsx'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <main className="app-main">
         <Hero />
         <ProcessSteps />
+        <NeedInput />
       </main>
     </div>
   )
